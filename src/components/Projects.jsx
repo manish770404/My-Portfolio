@@ -1,5 +1,5 @@
 import React from "react";
-import projectsData from "../Data/Projects.json"; // Make sure the path is correct
+import projectsData from "../data/Projects"; // Make sure the path is correct
 
 const Projects = () => {
   return (
@@ -23,7 +23,7 @@ const Projects = () => {
                     className="bg-teal-600 text-white px-3 py-1 text-sm rounded-full"
                   >
                     {tech}
-                  </span>
+                    </span>
                 ))}
               </div>
 

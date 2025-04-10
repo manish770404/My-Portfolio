@@ -1,23 +1,25 @@
-[
-    {
-      "category": "Programming Languages",
-      "items": [
-        { "name": "C++", "icon": "🟦" },
-        { "name": "Python", "icon": "🐍" },
-        { "name": "JavaScript", "icon": "🟨" }
-      ]
-    },
-    {
-      "category": "Web Technologies",
-      "items": [
-        { "name": "HTML", "icon": "📄" },
-        { "name": "CSS", "icon": "🎨" },
-        { "name": "React.js", "icon": "⚛️" },
-        { "name": "Node.js", "icon": "🌲" },
-        { "name": "Express.js", "icon": "🚀" },
-        { "name": "MongoDB", "icon": "🍃" }
-      ]
-    },
+
+
+const data  = [
+  {
+    "category": "Programming Languages",
+    "items": [
+      { "name": "C++", "icon": "🟦" },
+      { "name": "Python", "icon": "🐍" },
+      { "name": "JavaScript", "icon": "🟨" }
+    ]
+  },
+  {
+    "category": "Web Technologies",
+    "items": [
+      { "name": "HTML", "icon": "📄" },
+      { "name": "CSS", "icon": "🎨" },
+      { "name": "React.js", "icon": "⚛️" },
+      { "name": "Node.js", "icon": "🌲" },
+      { "name": "Express.js", "icon": "🚀" },
+      { "name": "MongoDB", "icon": "🍃" }
+    ]
+  },
     {
       "category": "Tools & Libraries",
       "items": [
@@ -40,4 +42,4 @@
       ]
     }
   ]
-  
+  export default data;

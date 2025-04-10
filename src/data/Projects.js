@@ -1,4 +1,4 @@
-[
+const data  = [
   {
     "name": "Remind Me! App",
     "description": "Web app for creating, displaying, and deleting notes in real-time.",
@@ -23,4 +23,6 @@
     "technologies": ["Python", "SpeechRecognition", "gTTS", "Pygame", "API"],
     "github": "https://github.com/manish770404/Jarvis"
   }
-]
+];
+
+export default data;
